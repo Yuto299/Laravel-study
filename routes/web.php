@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/hello-world', fn() => view('hello_world'));
 Route::get('/hello', fn() => view('hello', [
-    'name' => '山田',
+    'name' => '鈴木',
     'course' => 'Laravel'
 ]));
 
